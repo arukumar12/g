@@ -3,19 +3,19 @@ int main()
 {
     int n,a[10],temp=0,j,i;
     scanf("%d",&n);
-    for(i=0;i<n;i++)
+    for(j=0;j<n;j++)
     {
         scanf("%d",&a[i]);
     }
-    for(i=0;i<n;i++)
+    for(j=0;j<n;j++)
     {
        for(j=i+1;j<n;j++)
        {
-           if(a[i]>a[j])
+           if(a[j]>a[i])
            {
-               temp=a[i];
-               a[i]=a[j];
-               a[j]=temp;
+               temp=a[j];
+               a[j]=a[i];
+               a[i]=temp;
            }
        }
     }
