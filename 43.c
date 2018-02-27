@@ -10,5 +10,14 @@ int main() {
 	    printf("%s",a);
 	    printf("%s",b);
 	}
+	else if(a[i]==b[i])
+	{
+		printf("%s",a);
+		printf("%s",b);
+	}
+	else
+	{
+		printf("nothing");
+	}
 	return 0;
 }
