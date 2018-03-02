@@ -1,18 +1,18 @@
 #include <stdio.h>
-
 int main() {
-    int i;
+    int i,l,k;
 	char a[10];
 	char b[10];
-	gets(a);
-	gets(b);
-	if(a[i]==b[i])
+	scanf("%s%s",a,b);
+	l=strlen(a);
+	k=strlen(b);
+       if(l>k)
 	{
-	    printf("equal");
+	    printf("%s",a);
 	}
 	else
 	{
-	    printf("not equal");
+	    printf("%s",b);
 	}
 	return 0;
 }
