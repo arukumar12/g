@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+void main() {
 	int n;
 	scanf("%d",&n);
 	if(n%7==0)
@@ -11,5 +11,5 @@ int main() {
 	{
 	    printf("no");
 	}
-	return 0;
+
 }
